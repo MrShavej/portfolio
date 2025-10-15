@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Shavej's Portfolio</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f0f0f0, #d4e7f7);
+            color: #000000;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 400px;
+        }
+
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid limegreen;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            margin-top: 5px;
+            font-size: 1rem;
+        }
+
+        .contact a {
+            color: limegreen;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .info {
+            background-color: aqua;
+            border: solid;
+        }
+
+        .about {
+            background-color: rgb(178, 237, 126);
+            border: solid;
+            box-sizing: border-box;
+        }
+
+        .skills {
+            background-color: rgb(61, 174, 222);
+            border: solid;
+        }
+
+        .projects {
+            background-color: rgb(232, 80, 80);
+            border: solid;
+        }
+
+        .pr1,
+        .pr2,
+        .pr3 {
+            color: #050101;
+            border: solid;
+            background-color: #ffffff;
+            h3{
+                color: #fc0000;
+            }
+        }
+
+        footer {
+            background-color: #e7d000;
+            color: #fc0000;
+            text-align: center;
+            border: solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info">
+        <section class="hero">
+            <img src="mrshavej.jpg" alt="Profile Picture">
+            <h1>Mr Shavej's Portfolio</h1>
+            <p>Student | Web Developer | Tech Enthusiast</p>
+
+            <div class="contact">
+                <p>Email: <a href="mailto:xyz@gmail.com">mrshavej74@gmail.com</a></p>
+                <p>Address: Saharanpur, UP, India</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            ​Hello, I'm Shavej, and I'm on a journey to become a great coder and developer.<br>
+            ​I am currently pursuing my BCA in the 2nd year at Shobhit University, Gangoh. My academic focus is
+            complemented by hands-on skill development in:
+        <ol>
+            <li> ​Web Development</li>
+            <li>​Python Programming</li>
+            <li>​Effective Problem Solving</li>
+            <li>​Designing Professional Portfolio Websites</li>
+        </ol>
+        <p> ​I believe that a strong foundation in logic and diverse programming languages is key to solving real-world
+            challenges. My ambition is to transition from a student into a highly-skilled professional, creating
+            impactful and efficient applications.
+            <i> ​Based in Dhanwa, Saharanpur (UP), India.</i>
+        </p>
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML, CSS & JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Python & Basic Programming</li>
+            <li>Creativity & Problem Solving</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="pr1">
+            <h3>​Project 1</h3>
+            <p><b>Project Name:</b> Hello World<br>
+                <b>Tech Used:</b> HTML, CSS<br>
+                <b>Description:</b>
+                This project marked the beginning of my web development journey. I designed a simple yet clean webpage
+                that displays the classic “Hello, World!” message using HTML for structure and CSS for basic styling.
+                The project helped me understand the fundamentals of web design, including layout creation, color
+                styling, and element positioning — laying the foundation for my future coding projects.
+            </p>
+        </div>
+        <div class="pr2">
+            <h3>Project 2</h3>
+            <p><b>Project Name:</b> My Introduction Page<br>
+                <b> Tech Used:</b> HTML, CSS<br>
+                <b> Description:</b><br>
+                A digital doorway into who I am. This project introduces me through a clean, minimal webpage featuring
+                my photo, a short self-introduction, and a design that mirrors my personality. Built with HTML and CSS,
+                it focuses on structure, aesthetics, and storytelling — turning simple code into a personal expression.
+                It’s not just a web page, it’s me, written in tags and styled in colors.
+            </p>
+        </div>
+        <div class="pr3">
+            <h3>Project 3(Important project)</h3>
+            <p><b>Project Name:</b> My Portfolio><br>
+                <b>Tech Used:</b> HTML, CSS<br>
+                <b>Description:</b>
+                This project showcases my personal portfolio — a creative space where I’ve displayed my image, skills,
+                and information in beautifully structured boxes. Designed using HTML and CSS, each section reflects a
+                part of my journey — from education and achievements to contact details and personal style. The layout
+                emphasizes clarity, balance, and visual flow, turning simple code into an elegant representation of my
+                growth as a developer. It’s more than a portfolio — it’s my digital reflection, carefully crafted line
+                by line.</p>
+        </div>
+    </section>
+    <footer>
+        &copyMr Shavej
+    </footer>
+</body>
+
+</html>
